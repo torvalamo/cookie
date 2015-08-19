@@ -10,6 +10,13 @@ Add to your document:
 
 This adds a `cookie` function to the global `window` object.
 
+If you want the function on a different object, you can use
+
+```js
+// Attach the function to myObject and remove from window
+cookie.attach(myObject)
+```
+
 ## Usage:
 
 To set a cookie:

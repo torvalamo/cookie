@@ -43,5 +43,10 @@
 		}
 	}
 	
+	cookie.attach = function(obj) {
+		obj.cookie = cookie
+		delete window.cookie
+	}
+	
 	window.cookie = cookie
 }())
