@@ -8,7 +8,7 @@ Add to your document:
 </head>
 ```
 
-This adds a `cookie` function to the global `window` object.
+This adds a `cookie` function to the global `window` object, which lets you use it anywhere in your code without a prefix.
 
 If you want the function on a different object, you can use
 
